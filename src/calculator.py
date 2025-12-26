@@ -1,7 +1,7 @@
 from __future__ import annotations
 from datetime import date
 from typing import List
-from src.models import Expense, Category
+from .models import Expense, Category
 
 class ExpenseCalculator:
     def __init__(self) -> None:
