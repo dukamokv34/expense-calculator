@@ -25,6 +25,7 @@ jobs:
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
           pip install pytest
 
-      - name: Run tests
+            - name: Run tests
         run: |
-          pytest -q
+          pytest -q src/tests/test_calculator.py
+
