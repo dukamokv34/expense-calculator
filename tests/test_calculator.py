@@ -1,5 +1,5 @@
 from datetime import date
-from src.calculator import Calculator
+from src.calculator import ExpenseCalculator
 
 
 def test_add_expense():
