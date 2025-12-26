@@ -36,8 +36,7 @@ jobs:
           python -m compileall src
 
       - name: Run tests
-        run: |
-          pytest -q
+  run: pytest src/tests -q
 
       - name: Create artifact (zip)
         run: |
